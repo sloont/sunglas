@@ -1,0 +1,20 @@
+{
+  "name": "sunglas",
+  "version": "1.0.0",
+  "description": "setting the bar for obnoxious applicants",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "tsc-watch": "tsc -w",
+    "browserify": "browserify ./ts/index.ts -p [ tsify --noImplicitAny ] > bundle.js",
+    "sunglas": "node ./src/index.js"
+  },
+  "author": "slont",
+  "license": "The Most Copyright of Copyrights ©",
+  "devDependencies": {
+    "@types/node": "^18.0.4",
+    "tsify": "^5.0.4",
+    "typescript": "^4.7.4"
+  }
+}
